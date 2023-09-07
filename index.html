@@ -9,9 +9,30 @@
 </head>
 
 <body>
-    <h1 class="title">
+    <h1 class="title grid2">
         <a href="index.html">호돌HOME</a>
+        <input type="button"
+            value="Dark"
+            onClick="
+                document.querySelector('body')
+                    .style
+                    .backgroundColor = 'black';
+                document.querySelector('body')
+                    .style
+                    .color = 'white';
+            "/>
+        <input type="button"
+            value = 'Light'
+            onClick="
+                document.querySelector('body')
+                    .style
+                    .backgroundColor = 'white';
+                document.querySelector('body')
+                    .style
+                    .color = 'black';
+            "/>
     </h1>
+    
     <div class="grid">
         <ol>
             <li><a href="1.html">자기소개</a></li>
@@ -20,6 +41,9 @@
         </ol>
         <div>
             <img class="profile" src="jordy.png">
+            <div>안녕하세요</div>
+            <div><h2>마호돌이라고 합니다.</h2></div>
+            <div>안녕하세요</div>
         </div>
     </div>
 </body>

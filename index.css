@@ -8,6 +8,10 @@
     display: grid;
     grid-template-columns: 150px 1fr;
 }
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 50px 50px;
+}
 .title{
     font-size: 30px;
     font-family: gulim;
@@ -23,4 +27,9 @@ h1{
 ol{
     border-right:2px solid gray;
     margin:0px;
+}
+@media(max-width:600px){
+    .grid{
+        display: block;
+    }
 }
